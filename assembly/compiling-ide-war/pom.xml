@@ -20,7 +20,7 @@
     <parent>
         <artifactId>onpremises-ide-parent</artifactId>
         <groupId>com.codenvy.onpremises</groupId>
-        <version>5.5.0</version>
+        <version>5.6.0-SNAPSHOT</version>
     </parent>
     <artifactId>compiling-ide-war</artifactId>
     <packaging>war</packaging>
@@ -84,6 +84,14 @@
             <artifactId>codenvy-plugin-pullrequest-shared</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava-gwt</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.eclipse.che</groupId>
             <artifactId>assembly-ide-war</artifactId>
             <classifier>classes</classifier>
@@ -97,6 +105,10 @@
                     <groupId>org.eclipse.che.plugin</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.che.lib</groupId>
+            <artifactId>che-orion-editor</artifactId>
         </dependency>
         <dependency>
             <groupId>org.eclipse.che.sample</groupId>

@@ -30,9 +30,8 @@ public class CustomPerspectiveExtension {
      * @param switchPerspectiveAction action for switching between perspectives
      */
     @Inject
-    public CustomPerspectiveExtension(ActionManager actionManager, SwitchPerspectiveAction switchPerspectiveAction){
+    public CustomPerspectiveExtension(ActionManager actionManager){
         // add actions on right part of toolbar
         final DefaultActionGroup rightToolbarGroup = (DefaultActionGroup)actionManager.getAction(GROUP_RIGHT_TOOLBAR);
-        rightToolbarGroup.add(switchPerspectiveAction);
     }
 }
