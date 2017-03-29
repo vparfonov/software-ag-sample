@@ -202,6 +202,11 @@
             </dependency>
             <dependency>
                 <groupId>com.codenvy.onpremises</groupId>
+                <artifactId>che-sample-plugin-perpective-ide</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.codenvy.onpremises</groupId>
                 <artifactId>compiling-ide-war</artifactId>
                 <version>${project.version}</version>
                 <classifier>classes</classifier>
@@ -832,11 +837,6 @@
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-docker-compose</artifactId>
                 <version>${che.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.sample</groupId>
-                <artifactId>che-sample-plugin-perpective-ide</artifactId>
-                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.everrest</groupId>
