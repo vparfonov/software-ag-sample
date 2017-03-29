@@ -29,10 +29,6 @@
     <packaging>pom</packaging>
     <name>Onpremises IDE :: Parent</name>
     <modules>
-        <module>assembly-website-war</module>
-        <module>assembly-factory-war</module>
-        <module>assembly-wsmaster-war</module>
-        <module>assembly-dashboard-war</module>
         <module>compiling-ide-war</module>
         <module>assembly-ide-war</module>
         <module>assembly-wsagent-war</module>
